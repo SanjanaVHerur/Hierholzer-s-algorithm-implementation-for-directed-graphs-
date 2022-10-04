@@ -62,13 +62,6 @@ def dfs(at):
         dfs(next_edge[outdeg[at]])
     path1.insert(0,at)
 
-# def eulpath():
-#     dfs(findstartnode())
-#     if path.size==6:
-#         return path
-#     return 0
-
-
 def findeul():
     if cir()==1:
         dfs(0)
